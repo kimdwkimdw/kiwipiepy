@@ -6,8 +6,7 @@ jobs:
   build_archs:
     name: Build wheels manylinux_aarch64
     runs-on: ubuntu-18.04
-            compiler: clang
-            version: "10"
+
     steps:
       - uses: actions/checkout@v2
         with:
