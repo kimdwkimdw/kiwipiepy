@@ -2,7 +2,6 @@ name: Publish new package into test pypi
 
 on: [push, pull_request]
 
-
 jobs:
   build_archs:
     name: Build wheels manylinux_aarch64
